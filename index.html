@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Etch A Sketch</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div id='main_container'>
+    <h1>Etch A Sketch</h1>
+    <div id='container'>
+    </div>
+    <div id='dials'>
+      <button class='dial'>button 1</button>
+      <div id="grid_selector">
+        <p id="grid_selection"></p>
+        <input id="grid_slider" name="grid_slider" type="range" min="1" max="64" value="16">
+        <label for="grid_size">Select Grid Size</label>
+      </div>
+      <button class='dial'>button 2</button>
+    </div>
+    <div id="shake_container">
+      <button class="shake">Shake To Erase</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
